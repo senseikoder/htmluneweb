@@ -1,0 +1,16 @@
+input,
+textarea, 
+button,
+select {
+   padding: 10px;
+   background: #e3f5ef;
+   display: block;
+   margin-bottom: 10px;
+   border-radius: 7px;
+   border: 1px solid #60a460;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+   display: inline;
+}

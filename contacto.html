@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Webmaster - Contacto</title>
+   <link rel="stylesheet" href="estilos.css">
+   <link rel="stylesheet" href="form.css">
+
+</head>
+
+<body>
+
+   <div class="logo">
+      <img src="img/logo.png" alt="Logo" width="450" height="">
+   </div>
+
+   <h1>Servicios Webmaster</h1>
+
+   <h2 style="color:brown">Tu web en <span class="verdoso">caracas a medida</span></h2>
+
+   <p class="menu">
+      <a href="index.html#home">Home</a>
+      <a href="index.html#acerca">Acerca de</a>
+      <a href="index.html#servicios">Servicios</a>
+      <a href="index.html#galeria">Galeria</a>
+      <a href="https://behance.net/frank#portfolio">Proyectos</a>
+      <a href="contacto.html">Contacto</a>
+   </p>
+
+
+<div class="container">
+   <div class="col">
+
+      <h4>Cómo llegar</h4>
+
+      <iframe width="425" height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=-66.86872065067293%2C10.489009258929563%2C-66.86461150646211%2C10.492110812721927&amp;layer=mapnik" style="border: 1px solid black"></iframe>
+      
+   </div>
+
+   <div class="col">
+      <h4>Contáctanos</h4>
+
+      <form action="" method="post">
+         <!-- <label for="">Nombre</label> -->
+         <input type="text" name="nombre" placeholder="Nombre" minlength="3" required>
+
+         <!-- <label for="telf">Telefono</label> -->
+         <input type="text" name="telf" id="telf" placeholder="555-23-11" readonly>
+
+         <input type="email" name="email" placeholder="E-mail" required disabled>
+
+         <textarea name="msj" placeholder="Mensajes" maxlength="20">Mensaje</textarea>
+
+         <button>Enviar mensaje</button>
+
+         <input type="submit" name="enviar" value="Enviar">
+         <input type="button" name="enviar" value="Boton">
+         <input type="reset" name="enviar" value="Resetear">
+
+         <hr>
+
+         <input type="tel" required>
+
+         <input type="color">
+
+         <input type="date">
+
+         <input type="password" name="" minlength="6" required>
+
+         <input type="hidden" name="">
+
+         <input type="checkbox" name="servicio" value="1">Ser1
+         <input type="checkbox" name="servicio" value="2">Ser2
+         <input type="checkbox" name="servicio" value="3" checked>Ser3
+         
+         <br>
+         
+         <input type="radio" name="hobbies" value="1" checked>Leer
+         <input type="radio" name="hobbies" value="2">Correr
+         <input type="radio" name="hobbies" value="3">Bailar
+
+
+         <select name="servicios" multiple>
+            <option value="1" >Web</option>
+            <option value="2">App</option>
+            <option value="3" selected>Portal</option>
+         </select>
+
+         
+      </form>
+   </div>
+</div>
+
+
+   <footer>
+      <div class="menu">
+         <a href="https://instagram.com/webmaster" target="_blank">Instagram</a>
+         <a href="https://facebook.com/webmaster" target="_blank">Facebook</a>
+         <a href="https://linkedin.com/u/webmaster" target="_blank">Linkedin</a>
+      </div>
+   </footer>
+
+</body>
+</html>
